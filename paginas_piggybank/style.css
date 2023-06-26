@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Staatliches', cursive;
+}
+
+body{
+    background-color: #CAD3F5;
+}
+
+#header{
+    place-content: center;
+    width: 250px;
+
+    padding: 0;
+    margin-top: 100px;
+    margin-bottom: 21px;
+
+    gap: 100px;
+
+    display: flex;
+    align-items: center;
+}
+
+#logo{
+    height: 41.57px;
+    width: 50px;
+}
+
+h1{
+    font-size: 16px;
+    color: #6E738D;
+}
+
+#card{
+    place-content: center;
+    background-color: white;
+    border-radius: 10px;
+    width: 250px;
+    height: 500px;
+    padding: 6px 10px 26px 6px;
+}
+
+h2{
+    color: #363A4F;
+    font-size: 20px;
+    padding-bottom: 35px;
+}
+
+p{
+    color: #8087A2;
+    font-size: 15px;
+    padding-bottom: 40px;
+}
+
+span{
+    color: #363A4F;
+}
+
+button{
+    width: 100px;
+    height: 80px;
+    margin: 5px;
+    background-color: #FAFAFC;
+
+    font-size: 12px;
+    color: #363A4F;
+
+    border: 1px;
+}
+
+#buttons{
+    display: flex;
+    flex-direction: column;
+}
